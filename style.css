@@ -1,51 +1,102 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: monospace;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
 }
 
-.body{
+body {
+    background-color: rgba(36, 38, 77, 255);
+}
+
+/* .body{
     background-color:  rgb(5, 5, 78);
     height: 510px;
     width: 720px;
     border-radius: 5%;
     margin: auto;
     margin-top: 10%;
-}
+} */
 
-.welcome{
+
+
+.left{
     border: none;
-    width: 25%;
+    width: 200px;
     height: 490px;
     float: left;
-    border-radius: 10px;
-    background: chocolate;
+    border-top-left-radius: 5px;
+    background: rgba(255, 104, 0, 255);
     margin-top: 10px;
     margin-left: 15px;
     margin-bottom: 20px;
+    border-bottom-left-radius: 5px;
+    filtr: blur(50px);
 }
 
 .icon{
-    font-size: 70px;
-    margin-top: 20%;
-    margin-left: 20%;
+    font-size: 50px;
+    margin-top: 50px;
+    margin-left: 20px;
+    color: white;
 }
 
-.registration{
+.contact_us{
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.right{
     border: none;
-    width: 70%;
+    width: 600px;
     height: 490px;
-    float: right;
-    border-radius: 5%;
-    background: rgb(97, 89, 84);
+    float: left;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background: whitesmoke;
     margin-top: 10px;
     margin-right: 10px;
-
-    
+    outline: none;
 }
 
-input[type=text]{
+.first_name{
+    margin-top: 30px;
+    margin-left: 30px; 
+    outline: none;
+}
+
+.last_name{
     margin-top: 20px;
-    margin-left: 20px;
-    padding: 10px 20px 10px 20px;
+    margin-left: 30px;
+}
+
+.email{
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+input[type=text],input[type=email]{
+    margin-top: 5px;
+    padding: 5px 250px 5px 0;
+    outline: none;
+}
+
+.text{
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.submit{
+    margin-top: 20px;
+    margin-left: 30px;
+    font-size: 20px;
+    color: white;
+    background-color: black;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
 }
 
